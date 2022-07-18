@@ -7,7 +7,7 @@
 - Basics
 
   - [MesoCraft Environment](basics_env.md)
-  - [Modelling](basics_modeling.md)
+  - [Modeling](basics_modeling.md)
   - [Statistics](basics_statistics.md)
   - [Structure](basics_structure.md)
   - [Examples of rules](basics_example.md)
