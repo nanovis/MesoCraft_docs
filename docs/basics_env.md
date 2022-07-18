@@ -32,4 +32,30 @@ Using the gizmo to move (key **T**)|rotate (key **R**)|scale (key **S**) the obj
 
 
 ## Multi-modalities rendering
+
+MesoCraft can combine a scene with multiple modalities. Currently these are: 
+- Protein data (protein models obtained as PDBs)
+- Volumetric data (3D volumetric reconstruction)
+- Mesh data (triangle meshes)
+
+![](_media/multi-modalities.png)
+
+Several modalities can be combined in view. In this image, volumetric data is overlaid by mesh and atomistic models.
+
 ## Input/Output
+
+### Program->Save Model
+
+Exports the current content of the scene into TXT file, where on every row one element instance is stored. No rules are exported. This model can be loaded using **Program->Load Model** function. For correct loading of the stored model all the protein instances that the model contains have to be in the library.
+
+### Program->Export->Rules
+Exports into selected directory rules currently presented in the scene in the form of .json files. These files after copying into `work/data/modeling/models` folder can be after program restart used.
+
+### Program->Load Model
+Loads previously stored model using **Program->Save Model**.
+
+### Program->Export->Protein Colors
+Exports the currently set color scheme. For more details, see **Visibility** section.
+
+### Program->Import->Protein Colors
+Load the previously stored color scheme from the file.
