@@ -47,7 +47,7 @@ In the bottom part of the *Elements Library* panel.
 
 **Add Ingredient** opens a dialog where the user can select one protein file (PDB, mmCIF, …). After the confirmation the item is added into the library. 
 
-?> :exclamation: **Important!** After adding an ingredient, the software needs to be restarted in order to rebuild internal data structure. Several ingredients can be added within one session. The software can be restarted only once after the all desired ingredients are added.
+!> **Important!** After adding an ingredient, the software needs to be restarted in order to rebuild internal data structure. Several ingredients can be added within one session. The software can be restarted only once after the all desired ingredients are added.
 
 **Remove Ingredient** removes the selected ingredient from the library. Restart is required in order to update cache file.
 
