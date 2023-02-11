@@ -20,7 +20,7 @@ In the *elements* array, metadata regarding every type (not instance!) are inclu
 
 ## Binary instance info
 
-Is formed by 48 bytes data chunk with the following layout:
+Is formed by 48 bytes data chunk, in big-endian format, with the following layout:
 
 ![](_media/format/binary_instance_info.png ':size=80%')
 
